@@ -1,0 +1,30 @@
+.buttons-container{
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.quicktool-button{
+	width: 64px;
+	height: 64px;
+	align-items: flex-start;
+	justify-content: center;
+	margin-top: 10px;
+	margin-left: 10px;
+	background-color: violet;
+}
+
+.quicktool-button-icon{
+	height: 54px;
+	width: 54px;
+	opacity: 0.9;
+	margin-left: -2px;
+	background-color: blue;
+}
+
+.quicktool-butto-icon:hover{
+	opacity:1
+}
+
+.quicktool-button:active > .quicktool-button-icon{
+	opacity: 0.6;
+}
